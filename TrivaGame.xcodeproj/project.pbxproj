@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A857E0928FB9484004BF5E4 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A857E0828FB9484004BF5E4 /* AnswerRow.swift */; };
+		6A857E0B28FB9EB9004BF5E4 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A857E0A28FB9EB9004BF5E4 /* TriviaView.swift */; };
+		6A857E0D28FBA2D2004BF5E4 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A857E0C28FBA2D2004BF5E4 /* Trivia.swift */; };
+		6A857E0F28FBA857004BF5E4 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A857E0E28FBA857004BF5E4 /* TriviaManager.swift */; };
 		6AACAA9C28FB3502008AAF40 /* TrivaGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAA8C28FB3501008AAF40 /* TrivaGameApp.swift */; };
 		6AACAA9D28FB3502008AAF40 /* TrivaGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAA8C28FB3501008AAF40 /* TrivaGameApp.swift */; };
 		6AACAA9E28FB3502008AAF40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAA8D28FB3501008AAF40 /* ContentView.swift */; };
 		6AACAA9F28FB3502008AAF40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAA8D28FB3501008AAF40 /* ContentView.swift */; };
 		6AACAAA028FB3502008AAF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AACAA8E28FB3502008AAF40 /* Assets.xcassets */; };
 		6AACAAA128FB3502008AAF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AACAA8E28FB3502008AAF40 /* Assets.xcassets */; };
+		6AACAAAE28FB44B2008AAF40 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6AACAAAD28FB44B2008AAF40 /* FirebaseAuth */; };
+		6AACAAB028FB44B2008AAF40 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6AACAAAF28FB44B2008AAF40 /* FirebaseFirestore */; };
+		6AACAAB228FB44B2008AAF40 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6AACAAB128FB44B2008AAF40 /* FirebaseFirestoreSwift */; };
+		6AACAAB428FB44B2008AAF40 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6AACAAB328FB44B2008AAF40 /* FirebaseStorage */; };
+		6AACAABC28FB552B008AAF40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AACAABB28FB552B008AAF40 /* GoogleService-Info.plist */; };
+		6AACAABE28FB5C4C008AAF40 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAABD28FB5C4A008AAF40 /* HomeScreen.swift */; };
+		6AACAAC228FB712E008AAF40 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAAC128FB712E008AAF40 /* WelcomeScreen.swift */; };
+		6AACAAC528FB7185008AAF40 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAAC428FB7185008AAF40 /* PrimaryButton.swift */; };
+		6AACAACA28FB7891008AAF40 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAAC928FB7890008AAF40 /* Extentions.swift */; };
+		6AACAACC28FB794D008AAF40 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAACB28FB794D008AAF40 /* QuestionView.swift */; };
+		6AACAACE28FB7A6F008AAF40 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAACD28FB7A6F008AAF40 /* ProgressBar.swift */; };
+		6AACAAD128FB8281008AAF40 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AACAAD028FB8281008AAF40 /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A857E0828FB9484004BF5E4 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		6A857E0A28FB9EB9004BF5E4 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		6A857E0C28FBA2D2004BF5E4 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		6A857E0E28FBA857004BF5E4 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 		6AACAA8C28FB3501008AAF40 /* TrivaGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivaGameApp.swift; sourceTree = "<group>"; };
 		6AACAA8D28FB3501008AAF40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6AACAA8E28FB3502008AAF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AACAA9328FB3502008AAF40 /* TrivaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AACAA9928FB3502008AAF40 /* TrivaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AACAA9B28FB3502008AAF40 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6AACAABB28FB552B008AAF40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AACAABD28FB5C4A008AAF40 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		6AACAAC128FB712E008AAF40 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		6AACAAC428FB7185008AAF40 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		6AACAAC928FB7890008AAF40 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extentions.swift; path = Shared/Extentions.swift; sourceTree = SOURCE_ROOT; };
+		6AACAACB28FB794D008AAF40 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		6AACAACD28FB7A6F008AAF40 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		6AACAAD028FB8281008AAF40 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AACAAAE28FB44B2008AAF40 /* FirebaseAuth in Frameworks */,
+				6AACAAB428FB44B2008AAF40 /* FirebaseStorage in Frameworks */,
+				6AACAAB028FB44B2008AAF40 /* FirebaseFirestore in Frameworks */,
+				6AACAAB228FB44B2008AAF40 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,9 +74,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A857E1028FBDD65004BF5E4 /* login  */ = {
+			isa = PBXGroup;
+			children = (
+				6AACAA8D28FB3501008AAF40 /* ContentView.swift */,
+			);
+			path = "login ";
+			sourceTree = "<group>";
+		};
 		6AACAA8628FB3500008AAF40 = {
 			isa = PBXGroup;
 			children = (
+				6A857E0E28FBA857004BF5E4 /* TriviaManager.swift */,
+				6AACAACF28FB8190008AAF40 /* Models */,
 				6AACAA8B28FB3501008AAF40 /* Shared */,
 				6AACAA9A28FB3502008AAF40 /* macOS */,
 				6AACAA9428FB3502008AAF40 /* Products */,
@@ -54,9 +96,14 @@
 		6AACAA8B28FB3501008AAF40 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6AACAAC928FB7890008AAF40 /* Extentions.swift */,
+				6AACAAC828FB7330008AAF40 /* views */,
+				6AACAAC328FB7157008AAF40 /* components */,
 				6AACAA8C28FB3501008AAF40 /* TrivaGameApp.swift */,
-				6AACAA8D28FB3501008AAF40 /* ContentView.swift */,
+				6AACAACD28FB7A6F008AAF40 /* ProgressBar.swift */,
+				6A857E1028FBDD65004BF5E4 /* login  */,
 				6AACAA8E28FB3502008AAF40 /* Assets.xcassets */,
+				6AACAABB28FB552B008AAF40 /* GoogleService-Info.plist */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -74,8 +121,37 @@
 			isa = PBXGroup;
 			children = (
 				6AACAA9B28FB3502008AAF40 /* macOS.entitlements */,
+				6AACAABD28FB5C4A008AAF40 /* HomeScreen.swift */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		6AACAAC328FB7157008AAF40 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				6AACAAC428FB7185008AAF40 /* PrimaryButton.swift */,
+				6A857E0828FB9484004BF5E4 /* AnswerRow.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		6AACAAC828FB7330008AAF40 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6AACAAC128FB712E008AAF40 /* WelcomeScreen.swift */,
+				6AACAACB28FB794D008AAF40 /* QuestionView.swift */,
+				6A857E0A28FB9EB9004BF5E4 /* TriviaView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6AACAACF28FB8190008AAF40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AACAAD028FB8281008AAF40 /* Answer.swift */,
+				6A857E0C28FBA2D2004BF5E4 /* Trivia.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +170,12 @@
 			dependencies = (
 			);
 			name = "TrivaGame (iOS)";
+			packageProductDependencies = (
+				6AACAAAD28FB44B2008AAF40 /* FirebaseAuth */,
+				6AACAAAF28FB44B2008AAF40 /* FirebaseFirestore */,
+				6AACAAB128FB44B2008AAF40 /* FirebaseFirestoreSwift */,
+				6AACAAB328FB44B2008AAF40 /* FirebaseStorage */,
+			);
 			productName = "TrivaGame (iOS)";
 			productReference = 6AACAA9328FB3502008AAF40 /* TrivaGame.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +224,9 @@
 				Base,
 			);
 			mainGroup = 6AACAA8628FB3500008AAF40;
+			packageReferences = (
+				6AACAAAC28FB44B2008AAF40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 6AACAA9428FB3502008AAF40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AACAAA028FB3502008AAF40 /* Assets.xcassets in Resources */,
+				6AACAABC28FB552B008AAF40 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +264,17 @@
 			files = (
 				6AACAA9E28FB3502008AAF40 /* ContentView.swift in Sources */,
 				6AACAA9C28FB3502008AAF40 /* TrivaGameApp.swift in Sources */,
+				6AACAACA28FB7891008AAF40 /* Extentions.swift in Sources */,
+				6AACAAD128FB8281008AAF40 /* Answer.swift in Sources */,
+				6AACAACC28FB794D008AAF40 /* QuestionView.swift in Sources */,
+				6AACAAC528FB7185008AAF40 /* PrimaryButton.swift in Sources */,
+				6A857E0B28FB9EB9004BF5E4 /* TriviaView.swift in Sources */,
+				6AACAAC228FB712E008AAF40 /* WelcomeScreen.swift in Sources */,
+				6AACAACE28FB7A6F008AAF40 /* ProgressBar.swift in Sources */,
+				6A857E0928FB9484004BF5E4 /* AnswerRow.swift in Sources */,
+				6A857E0D28FBA2D2004BF5E4 /* Trivia.swift in Sources */,
+				6A857E0F28FBA857004BF5E4 /* TriviaManager.swift in Sources */,
+				6AACAABE28FB5C4C008AAF40 /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +541,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6AACAAAC28FB44B2008AAF40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6AACAAAD28FB44B2008AAF40 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AACAAAC28FB44B2008AAF40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6AACAAAF28FB44B2008AAF40 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AACAAAC28FB44B2008AAF40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6AACAAB128FB44B2008AAF40 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AACAAAC28FB44B2008AAF40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		6AACAAB328FB44B2008AAF40 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AACAAAC28FB44B2008AAF40 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6AACAA8728FB3500008AAF40 /* Project object */;
 }
